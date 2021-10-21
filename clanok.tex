@@ -9,7 +9,7 @@
 \usepackage{graphicx}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
-
+\graphicspath{ {./Sources/Images} }
 \usepackage{cite}
 %\usepackage{times}
 
@@ -23,7 +23,7 @@
 	{\small \texttt{xkurtid@stuba.sk}}
 	}
 
-\date{\small 30. september 2015} % upravte
+\date{\small 21. októbra 2021} % upravte
 
 
 
@@ -46,19 +46,20 @@ Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlen
 Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
 Záverečné poznámky prináša časť~\ref{zaver}.
 
+Cieľom mojej práce je predstaviť program 3D modelovania s názvom Zmodeler (celým názvom Zanoza Modeler), ktorý slúži hlavne na vytváranie modelov používaných v hrách, ako aj na ich textúrovanie a úpravu. Dôvodom mójho výberu tejto témy boli moje osobné skúsenosti s programom Zmodeler. Rád by som kládol veľký dôraz na predstavenie jeho používateľského rozhrania, nakoľko sa na prvý pohľad môže zdať dosť komplikované, aj keď vôbec nie je. Okrem toho by som chcel predstaviť niektoré funkcie a možnosti programu. Keďže bol program publikovaný vo viacerých verziách, rád by som naznačil a porovnal rozdiely medzi nimi, ako aj fázu vývoja programu.
 
 
-\section{Nejaká časť} \label{nejaka}
 
-Z obr.~\ref{f:rozhod} je všetko jasné. 
+\section{Základné informácie o softweri} \label{zakladneinformacie}
+\begin{center}
+\includegraphics{zmodeler_logo}
+\end{center}
+Program má niekoľko verzií, ktoré vám umožňujú modelovať objekty z rôznych herných programov. Program má tri rôzne verzie:
 
-\begin{figure*}[tbh]
-\centering
+\subsection{Zmodeler:} \label{zakladneinformacie:zmodeler}
+\subsection{Zmodeler 2:} \label{zakladneinformacie:zmodeler2}
+\subsection{Zmodeler 3:} \label{zakladneinformacie:zmodeler3}
 %\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{figure*}
 
 
 
